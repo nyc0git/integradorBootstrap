@@ -1,0 +1,112 @@
+
+
+
+.navbar{
+    
+ 
+  background-color: rgb(61, 60, 60);
+      height: 100px
+  
+
+
+  }
+
+
+
+
+
+
+
+
+  .card .card-body [type="button"] {
+    font-size: .8rem;
+    font-weight: bold;
+    border: 0ch;
+    border-radius: 5px;
+    
+
+
+  }
+
+
+.card-body .btnamarillo {
+
+    background-color: rgb(255, 194, 7);
+   
+
+}
+
+   .card-body .btnazul {
+
+    background-color: rgb(23, 162, 188);
+    color: white;
+
+   }
+
+   .card-body .btngris {
+
+    background-color:darkgrey;
+  color: white;
+
+   }
+
+   .card-body .btnrojo {
+
+    background-color: #b92534;
+    color: white;
+  
+
+   }
+
+  
+
+
+
+
+.hero {
+height: 80vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/ba1.jpg);
+width: 100%;
+background-size: cover;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding-right: 8rem;
+
+
+}
+
+
+.caja {
+
+width: 40%;
+color: white;
+display: flex;
+align-items: flex-end;
+flex-flow: column;
+padding: 2rem;
+font-size: 1.3rem;
+
+
+}
+
+@media (max-width:1100px ) {
+.hero {
+ 
+
+  display: block;
+  padding: 1rem;
+padding-top: 4rem;
+}
+.hero h5{
+
+  font-size: 1.1rem;
+}
+
+.caja {
+  font-size: 1.1rem;
+  width: 100%;
+
+}
+
+}
